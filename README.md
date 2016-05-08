@@ -6,6 +6,7 @@ pyfallocate allows Python script to call Linux fallocate().
 pyfallocate relies on cffi, so you need to install cffi first by:
 
 ```
+$ sudo apt-get install libffi-dev # Just in case you don't have it
 $ pip install cffi
 ```
 
