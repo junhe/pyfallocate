@@ -18,7 +18,7 @@ $ cd pyfallocate
 $ python fallocate_build.py
 ```
 
-Use:
+## Use
 
 For example:
 
