@@ -31,6 +31,7 @@ from pyfallocate import fallocate
 fd = os.open("/tmp/myfile", O_RDWR|O_CREAT, 00666)
 os.write(fd, 'x' * 4096)
 ret = fallocate(fd, 3, 0, 4096)
+print 'fallocate() returned', ret
 os.close(fd)
 ```
 
