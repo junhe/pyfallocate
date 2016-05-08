@@ -1,5 +1,3 @@
-# file "example_build.py"
-
 from cffi import FFI
 ffi = FFI()
 
