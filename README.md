@@ -1,6 +1,6 @@
 # pyfallocate
 pyfallocate allows Python script to call Linux fallocate(). 
-
+Works even with Raspberry's Raspbian forcing 64b offsets allowing more than 4GB allocated.
 ## Install
 
 pyfallocate relies on cffi, so you need to install cffi first by:
